@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.div{
+    margin: 200px auto;
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0 0 20px;
+}
+.animation{
+    width: 130px;
+    height: 130px;
+    background-color: red;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes animation{
+    0%{
+        width: 130px;
+        height: 130px;
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        width: 130px;
+        height: 130px;
+        background-color: rgb(247, 146, 146);
+        top: 0;
+        left: 525px;
+    }
+    50%{
+        width: 130px;
+        height: 130px;
+        background-color: rgb(0, 0, 0);
+        top: 225px;
+        left: 525px;
+    }
+    75%{
+        width: 130px;
+        height: 130px;
+        background-color: rgb(245, 123, 1);
+        top: 225px;
+        left: 0px;
+    }
+    100%{
+        width: 130px;
+        height: 130px;
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+}
